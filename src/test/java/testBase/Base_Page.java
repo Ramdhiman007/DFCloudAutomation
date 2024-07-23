@@ -1,0 +1,17 @@
+package testBase;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+//this is Constructor
+
+public class Base_Page {
+	WebDriver driver;
+	
+	public Base_Page(WebDriver driver)
+	{
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+
+}
