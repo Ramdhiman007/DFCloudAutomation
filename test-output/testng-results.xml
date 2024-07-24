@@ -2,38 +2,52 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-23T19:49:36 IST" name="Suite" finished-at="2024-07-23T19:50:07 IST" duration-ms="31680">
+  <suite started-at="2024-07-24T16:14:35 IST" name="Suite" finished-at="2024-07-24T16:14:45 IST" duration-ms="10197">
     <groups>
     </groups>
-    <test started-at="2024-07-23T19:49:36 IST" name="Test" finished-at="2024-07-23T19:50:07 IST" duration-ms="31680">
+    <test started-at="2024-07-24T16:14:35 IST" name="Test" finished-at="2024-07-24T16:14:45 IST" duration-ms="10197">
+      <class name="testCases.TC03_Computers_Page">
+        <test-method is-config="true" signature="signInPage()[pri:0, instance:testCases.TC03_Computers_Page@68e965f5]" started-at="2024-07-24T16:14:41 IST" name="signInPage" finished-at="2024-07-24T16:14:44 IST" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInPage -->
+        <test-method signature="computerPage()[pri:1, instance:testCases.TC03_Computers_Page@68e965f5]" started-at="2024-07-24T16:14:44 IST" name="computerPage" finished-at="2024-07-24T16:14:45 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- computerPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC03_Computers_Page@68e965f5]" started-at="2024-07-24T16:14:45 IST" name="teardown" finished-at="2024-07-24T16:14:45 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC03_Computers_Page -->
       <class name="testCases.TC02_Signup_Page">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC02_Signup_Page@dd0c991]" started-at="2024-07-23T19:49:36 IST" name="setup" finished-at="2024-07-23T19:49:39 IST" duration-ms="3497" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC02_Signup_Page@1fb700ee]" started-at="2024-07-24T16:14:35 IST" name="setup" finished-at="2024-07-24T16:14:37 IST" duration-ms="1579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testsignup()[pri:1, instance:testCases.TC02_Signup_Page@dd0c991]" started-at="2024-07-23T19:49:39 IST" name="testsignup" finished-at="2024-07-23T19:49:44 IST" duration-ms="4674" status="FAIL">
+        <test-method signature="testsignup()[pri:1, instance:testCases.TC02_Signup_Page@1fb700ee]" started-at="2024-07-24T16:14:37 IST" name="testsignup" finished-at="2024-07-24T16:14:38 IST" duration-ms="1053" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
-  (Session info: chrome=126.0.6478.128)
+  (Session info: chrome=126.0.6478.183)
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7b48c7e71fbaabcf1c0e2c2a6762d5a, sendKeysToElement {value=[Ljava.lang.CharSequence;@379ab47b, id=f.8F5B57A6519032425C18BE997B714EF7.d.073AA40C97A050CEEF0447FB69FEFC96.e.49}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49257}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49257/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c7b48c7e71fbaabcf1c0e2c2a6762d5a)] -> xpath: //img[@id='m_imgCaptcha']]
-Session ID: c7b48c7e71fbaabcf1c0e2c2a6762d5a]]>
+Command: [f9dd0dd6099c74954955dbd9e7f03db6, sendKeysToElement {id=f.F8AE46C84EFC21D33D930B3FB80F34ED.d.88D804D14A9A4BD5FD0904097113CCA0.e.52, value=[Ljava.lang.CharSequence;@4de025bf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52271/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9dd0dd6099c74954955dbd9e7f03db6)] -> xpath: //img[@id='m_imgCaptcha']]
+Session ID: f9dd0dd6099c74954955dbd9e7f03db6]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=126.0.6478.128)
+  (Session info: chrome=126.0.6478.183)
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7b48c7e71fbaabcf1c0e2c2a6762d5a, sendKeysToElement {value=[Ljava.lang.CharSequence;@379ab47b, id=f.8F5B57A6519032425C18BE997B714EF7.d.073AA40C97A050CEEF0447FB69FEFC96.e.49}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49257}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49257/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c7b48c7e71fbaabcf1c0e2c2a6762d5a)] -> xpath: //img[@id='m_imgCaptcha']]
-Session ID: c7b48c7e71fbaabcf1c0e2c2a6762d5a
+Command: [f9dd0dd6099c74954955dbd9e7f03db6, sendKeysToElement {id=f.F8AE46C84EFC21D33D930B3FB80F34ED.d.88D804D14A9A4BD5FD0904097113CCA0.e.52, value=[Ljava.lang.CharSequence;@4de025bf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52271/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9dd0dd6099c74954955dbd9e7f03db6)] -> xpath: //img[@id='m_imgCaptcha']]
+Session ID: f9dd0dd6099c74954955dbd9e7f03db6
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -51,7 +65,7 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
 at pageObjects.Locators_Class.enterCaptcha(Locators_Class.java:114)
-at testCases.TC02_Signup_Page.testsignup(TC02_Signup_Page.java:32)
+at testCases.TC02_Signup_Page.testsignup(TC02_Signup_Page.java:33)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -84,25 +98,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsignup -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC02_Signup_Page@dd0c991]" started-at="2024-07-23T19:49:44 IST" name="teardown" finished-at="2024-07-23T19:49:44 IST" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC02_Signup_Page@1fb700ee]" started-at="2024-07-24T16:14:38 IST" name="teardown" finished-at="2024-07-24T16:14:38 IST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC02_Signup_Page -->
       <class name="testCases.TC01_Sign_in_Page">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC01_Sign_in_Page@5552768b]" started-at="2024-07-23T19:49:44 IST" name="setup" finished-at="2024-07-23T19:49:47 IST" duration-ms="3205" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC01_Sign_in_Page@76f2bbc1]" started-at="2024-07-24T16:14:38 IST" name="setup" finished-at="2024-07-24T16:14:39 IST" duration-ms="1326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testsignin()[pri:1, instance:testCases.TC01_Sign_in_Page@5552768b]" started-at="2024-07-23T19:49:47 IST" name="testsignin" finished-at="2024-07-23T19:49:54 IST" duration-ms="6688" status="PASS">
+        <test-method signature="testsignin()[pri:1, instance:testCases.TC01_Sign_in_Page@76f2bbc1]" started-at="2024-07-24T16:14:39 IST" name="testsignin" finished-at="2024-07-24T16:14:41 IST" duration-ms="1495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsignin -->
-        <test-method signature="computerpage()[pri:2, instance:testCases.TC01_Sign_in_Page@5552768b]" started-at="2024-07-23T19:49:54 IST" name="computerpage" finished-at="2024-07-23T19:50:07 IST" duration-ms="13401" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- computerpage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC01_Sign_in_Page@5552768b]" started-at="2024-07-23T19:50:07 IST" name="teardown" finished-at="2024-07-23T19:50:07 IST" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC01_Sign_in_Page@76f2bbc1]" started-at="2024-07-24T16:14:41 IST" name="teardown" finished-at="2024-07-24T16:14:41 IST" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

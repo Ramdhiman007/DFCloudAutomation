@@ -1,15 +1,14 @@
 package testCases;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pageObjects.Locators_Class;
 import testBase.Base_Page;
 
-public class TC02_Signup_Page {
+public class TC02_Signup_Page extends Base_Page {
     
     WebDriver driver;
     
@@ -22,11 +21,13 @@ public class TC02_Signup_Page {
     public void testsignup() {
         Locators_Class sg = new Locators_Class();
         driver.get("https://www1.faronicsbeta.com/Cloud/en");
-        sg.enterFirstName("Dhiman");
-        sg.enterLastName("Ram");
-        sg.enteremailid("ramdhiman89@gmail.com");
-        sg.enterCompanyname("JaiMataDi2");
-        sg.enterphone("1234567899");
+        sg.enterFirstName(randomeString().toUpperCase());
+        sg.enterLastName(randomeString().toUpperCase());
+        sg.enteremailid(randomeString()+"@gmail.com");
+        //yaha per randomly generated the email
+        
+        sg.enterCompanyname(randomeString().toUpperCase());
+        sg.enterphone(randomeAlphaNumberic());
         sg.selectCountry();
         sg.clickCaptcha();
         sg.enterCaptcha("EnterCaptchaTextHere"); // Update this with actual captcha text
@@ -34,9 +35,10 @@ public class TC02_Signup_Page {
         sg.checkAgree();
         sg.clickSignUp();
     }
+        
     
     @AfterClass
-    public void teardown() {
-        Base_Page.quitDriver();
+     public void teardown() {
+    	Base_Page.quitDriver();
     }
 }
