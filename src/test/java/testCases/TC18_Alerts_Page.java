@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import pageObjects.Locators_Class;
 import testBase.Base_Page;
 
-public class TC09_Inventory_Page extends Base_Page {
+public class TC18_Alerts_Page extends Base_Page {
 
     WebDriver driver;
 
@@ -21,9 +21,9 @@ public class TC09_Inventory_Page extends Base_Page {
     }
 
     @Test(priority=1)
-    public void invonterypage() {
+    public void alertpage() {
         Locators_Class lp = new Locators_Class();
-        lp.invonterypage();
+        lp.alertpage();
     }
 
     @AfterClass

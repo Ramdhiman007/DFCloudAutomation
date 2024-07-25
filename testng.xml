@@ -8,6 +8,18 @@
       <class name="testCases.TC03_Computers_Page"/>
       <class name="testCases.TC04_Groups_Page"/>
       <class name="testCases.TC05_Policies_Page"/>
+      <class name="testCases.TC06_Application_Page"/>
+      <class name="testCases.TC07_WindowsUpdate_Page"/>
+      <class name="testCases.TC08_Imaging_Page"/>
+      <class name="testCases.TC09_Inventory_Page"/>
+      <class name="testCases.TC10_Tickets_Page"/>
+      <class name="testCases.TC11_DFOD_Page"/>
+      <class name="testCases.TC12_UsageStats_Page"/>
+      <class name="testCases.TC13_MDM_Page"/>
+      <class name="testCases.TC16_Tag_Page"/>
+      <class name="testCases.TC17_TaskStatus_Page"/>
+      <class name="testCases.TC18_Alerts_Page"/>
+      
       
           </classes>
   </test> <!-- Test -->
