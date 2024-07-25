@@ -3,15 +3,19 @@ package testBase;
 import java.time.Duration;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class Base_Page {
     protected static WebDriver driver;
+    protected static Logger logger;
     
     public Base_Page() {
         // Empty constructor
+    	logger=LogManager.getLogger(this.getClass());
     }
 
     public static WebDriver getDriver() {
