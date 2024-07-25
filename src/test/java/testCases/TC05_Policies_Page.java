@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import pageObjects.Locators_Class;
 import testBase.Base_Page;
 
-public class TC04_Groups_Page extends Base_Page {
+public class TC05_Policies_Page extends Base_Page {
 
     WebDriver driver;
 
@@ -23,7 +23,7 @@ public class TC04_Groups_Page extends Base_Page {
     @Test(priority=1)
     public void grouppage() {
         Locators_Class lp = new Locators_Class();
-        lp.clickgrouppage();
+        lp.clickpoliciespage();
     }
 
     @AfterClass

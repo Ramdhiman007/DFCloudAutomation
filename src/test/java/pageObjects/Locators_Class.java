@@ -13,18 +13,45 @@ public class Locators_Class extends Base_Page {
     // Locators
     @FindBy(xpath="//input[@id='txtUserName']")
     WebElement txt_Username;
-
     @FindBy(xpath="//input[@id='btnlogin']")
     WebElement nextbtn_login;
-
     @FindBy(xpath="//input[@id='txtPassword']")
     WebElement txt_password;
-
     @FindBy(xpath="//input[@id='btnlogin']")
     WebElement sign_btnlogin;
-
     @FindBy(xpath="//a[normalize-space()='COMPUTERS']")
     WebElement clickcomputerpage;
+    @FindBy(xpath="//a[@href='/en/Group/List'][normalize-space()='GROUPS']")
+    WebElement clickgrouppage;
+    @FindBy(xpath="//a[normalize-space()='POLICIES']")
+    WebElement clickpoliciespage;
+    @FindBy(xpath="//a[normalize-space()='APPLICATIONS']")
+    WebElement applicationpage;
+    @FindBy(xpath="//a[@href='/NU/Dashboard/WindowsUpdates']")
+    WebElement clickwupage;
+    @FindBy(xpath="//a[@href='/NU/Dashboard/Imaging']")
+    WebElement clickimagingpage;
+    @FindBy(xpath="//a[@href='/NU/Dashboard/Inventory']")
+    WebElement clickinventorypage;
+    @FindBy(xpath="//a[@href='/NU/Dashboard/Tickets']")
+    WebElement clickticketspage;
+    @FindBy(xpath="//a[normalize-space()='DEEP FREEZE ON DEMAND']")
+    WebElement clickdfodpage;
+    @FindBy(xpath="//a[normalize-space()='MANAGE SCHEDULES']")
+    WebElement clickschedule;
+    @FindBy(xpath="//a[normalize-space()='CLOUD RELAYS']")
+    WebElement clickrelay;
+    @FindBy(xpath="//a[@href='/en/UsageStats/Dashboard']")
+    WebElement clicksuspage;
+    @FindBy(xpath="//a[normalize-space()='MDM']")
+    WebElement clicksmdmpage;
+    @FindBy(xpath="//span[@title='Tags Management']")
+    WebElement clicktagpage;
+    @FindBy(xpath="//span[@title='Task Status']")
+    WebElement clickstaskstatus;
+    @FindBy(xpath="//div[@id='dvNotificationCount']")
+    WebElement clickalertpage;
+
 
     // Locators SignUp pages
     @FindBy(xpath="//input[@id='FirstName']")
@@ -79,6 +106,67 @@ public class Locators_Class extends Base_Page {
 
     public void clickcomputerpage() {
         clickcomputerpage.click();
+    }
+    
+    public void clickgrouppage()
+    {
+    	clickgrouppage.click();
+    }
+    public void clickpoliciespage()
+    {
+    	clickpoliciespage.click();
+    }
+    public void applicationpage()
+    {
+    	applicationpage.click();
+    }
+    public void windowsupdate()
+    {
+    	clickwupage.click();
+    }
+    public void imagingpage()
+    {
+    	clickimagingpage.click();
+    }
+    public void invonterypage()
+    {
+    	clickinventorypage.click();
+    }
+    public void ticketspage()
+    {
+    	clickticketspage.click();
+    }
+    public void dfodpage()
+    {
+    	clickdfodpage.click();
+    }
+    public void dfodschedule()
+    {
+    	clickschedule.click();
+    }
+    public void cloudrelay()
+    {
+    	clickrelay.click();
+    }
+    public void usagestats()
+    {
+    	clicksuspage.click();
+    }
+    public void mdmpage()
+    {
+    	clicksmdmpage.click();
+    }
+    public void tagpage()
+    {
+    	clicktagpage.click();
+    }
+    public void taskstatus()
+    {
+    	clickstaskstatus.click();
+    }
+    public void alertpage()
+    {
+    	clickalertpage.click();
     }
 
     // Signup Action Methods
