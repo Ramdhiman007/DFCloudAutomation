@@ -7,35 +7,40 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 public class Base_Page {
-    protected static WebDriver driver; // WebDriver instance
-    protected static Logger logger; // Logger instance
-
-    public Base_Page() {
+    private static WebDriver driver; // WebDriver instance
+    public Logger logger; // Logger instance
+    
+    @BeforeClass
+    public void setup() {
         // Empty constructor
         logger = LogManager.getLogger(this.getClass()); // Logger initialize karna
-    }
 
-    // WebDriver ko initialize karna aur return karna
-    public static WebDriver getDriver() {
+        // WebDriver ko initialize karna aur return karna
         if (driver == null) {
             driver = new ChromeDriver(); // ChromeDriver instance create karna
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); // Implicit wait set karna
             driver.get("https://www1.faronicsbeta.com/en/Account/Login"); // URL open karna
             driver.manage().window().maximize(); // Window ko maximize karna
         }
-        return driver; // WebDriver instance return karna
     }
-
-    // WebDriver ko quit karna
-    public static void quitDriver() {
+    
+    @AfterClass
+    public void tearDown() {
+        // WebDriver ko quit karna
         if (driver != null) {
-            driver.quit(); // WebDriver ko quit karna
+            driver.quit();
             driver = null; // Driver ko null set karna
         }
     }
-  
+    
+    public static WebDriver getDriver() {
+        return driver;
+    }
+    
     // Randomly generated string return karna (alphabetic)
     public String randomeString() {
         String generatedstring = RandomStringUtils.randomAlphabetic(10); // Random alphabetic string generate karna

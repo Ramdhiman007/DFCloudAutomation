@@ -1,6 +1,5 @@
 package testCases;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -9,19 +8,20 @@ import testBase.Base_Page;
 
 public class TC02_Signup_Page extends Base_Page {
     
-    WebDriver driver;
+
     
-    @BeforeClass
+    @BeforeClass      
     public void setup() {
-        driver = Base_Page.getDriver(); // Driver ko initialize karna
+        super.setup(); // Base_Page setup ko call karna
     }
+    
     
     @Test(priority=1)
     public void testsignup() {
         Locators_Class sg = new Locators_Class(); // Locators_Class ka instance create karna
         
         // Signup page pe navigate karna
-        driver.get("https://www1.faronicsbeta.com/Cloud/en");
+        getDriver().get("https://www1.faronicsbeta.com/Cloud/en");
         
         // Signup form fill karna
         sg.enterFirstName(randomeString().toUpperCase()); // Random first name enter karna
@@ -39,6 +39,6 @@ public class TC02_Signup_Page extends Base_Page {
         
     @AfterClass
     public void teardown() {
-        Base_Page.quitDriver(); // Driver ko quit karna
+        super.tearDown(); // Base_Page tearDown ko call karna
     }
 }

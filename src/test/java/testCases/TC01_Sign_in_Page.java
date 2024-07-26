@@ -13,9 +13,9 @@ public class TC01_Sign_in_Page extends Base_Page {
     
     WebDriver driver;
     
-    @BeforeClass
+    @BeforeClass      
     public void setup() {
-        driver = Base_Page.getDriver(); // Driver ko initialize karna
+        super.setup(); // Base_Page setup ko call karna
     }
     
     @Test(priority=1)
@@ -33,6 +33,7 @@ public class TC01_Sign_in_Page extends Base_Page {
             logger.info("Password text box me enter kiya");
             lp.clickSignbtn(); // Sign-in button pe click karna
             logger.info("Sign-in button pe click kiya");
+            //Assert.assertEquals(confmsg, "You Signned in properly");
         } catch (Exception e) {
             logger.error("Test fail ho gaya");
             logger.debug("Debug Logs..");
@@ -44,6 +45,6 @@ public class TC01_Sign_in_Page extends Base_Page {
     
     @AfterClass
     public void teardown() {
-        Base_Page.quitDriver(); // Driver ko quit karna
+        super.tearDown(); // Base_Page tearDown ko call karna
     }
 }

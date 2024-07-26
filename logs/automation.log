@@ -295,3 +295,137 @@ java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext
 2024-07-26 13:00:54 INFO  Locators_Class:33 - Password text box me enter kiya
 2024-07-26 13:00:57 INFO  Locators_Class:35 - Sign-in button pe click kiya
 2024-07-26 13:00:57 INFO  Locators_Class:42 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 15:31:24 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 15:31:24 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 15:31:25 INFO  Locators_Class:29 - Username text box me enter kiya
+2024-07-26 15:31:25 INFO  Locators_Class:31 - Next button pe click kiya
+2024-07-26 15:31:25 INFO  Locators_Class:33 - Password text box me enter kiya
+2024-07-26 15:31:26 INFO  Locators_Class:35 - Sign-in button pe click kiya
+2024-07-26 15:31:26 INFO  Locators_Class:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:06:58 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:06:58 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:06:58 ERROR TC01_Sign_in_Page:38 - Test fail ho gaya
+2024-07-26 16:06:58 DEBUG TC01_Sign_in_Page:39 - Debug Logs..
+2024-07-26 16:07:42 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:07:42 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:07:42 ERROR TC01_Sign_in_Page:38 - Test fail ho gaya
+2024-07-26 16:07:42 DEBUG TC01_Sign_in_Page:39 - Debug Logs..
+2024-07-26 16:09:13 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:09:13 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:09:13 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:09:14 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:09:14 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:09:16 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:09:16 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:17:00 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:17:00 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:17:00 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:17:00 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:17:00 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:17:01 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:17:01 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:27:35 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:27:35 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:27:35 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:27:35 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:27:35 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:27:37 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:27:37 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:27:39 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:27:39 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:27:39 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:27:39 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:27:39 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:27:39 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:27:39 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:27:45 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:27:45 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:27:45 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:27:45 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:27:45 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:27:47 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:27:47 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:27:53 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:27:53 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:27:53 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:27:53 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:27:53 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:27:54 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:27:54 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:27:57 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:27:57 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:27:57 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:27:58 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:27:58 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:27:59 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:27:59 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:28:05 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:28:05 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:28:05 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:28:05 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:28:05 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:28:07 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:28:07 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:28:11 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:28:11 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:28:11 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:28:11 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:28:11 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:28:16 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:28:16 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:28:28 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:28:28 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:28:28 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:28:28 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:28:28 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:28:30 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:28:30 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:28:39 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:28:39 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:28:39 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:28:40 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:28:40 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:28:41 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:28:41 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:28:46 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:28:46 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:28:46 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:28:46 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:28:46 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:28:50 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:28:50 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:29:06 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:29:06 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:29:06 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:29:07 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:29:07 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:29:11 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:29:11 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:29:18 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:29:18 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:29:18 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:29:19 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:29:19 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:29:24 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:29:24 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:29:40 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:29:40 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:29:40 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:29:40 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:29:40 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:29:44 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:29:44 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:29:47 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:29:47 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:29:47 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:29:47 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:29:47 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:29:49 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:29:49 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****
+2024-07-26 16:29:54 INFO  TC01_Sign_in_Page:23 - *** TC01_Sign_in_Page test shuru ho raha hai *****
+2024-07-26 16:29:54 DEBUG TC01_Sign_in_Page:24 - Yeh ek debug log message hai
+2024-07-26 16:29:54 INFO  TC01_Sign_in_Page:29 - Username text box me enter kiya
+2024-07-26 16:29:54 INFO  TC01_Sign_in_Page:31 - Next button pe click kiya
+2024-07-26 16:29:54 INFO  TC01_Sign_in_Page:33 - Password text box me enter kiya
+2024-07-26 16:29:55 INFO  TC01_Sign_in_Page:35 - Sign-in button pe click kiya
+2024-07-26 16:29:55 INFO  TC01_Sign_in_Page:43 - *** TC01_Sign_in_Page test ke logs khatam *****

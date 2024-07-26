@@ -1,6 +1,5 @@
 package testCases;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -10,11 +9,10 @@ import testBase.Base_Page;
 
 public class TC09_Inventory_Page extends Base_Page {
 
-    WebDriver driver;
-
-    @BeforeClass
-    public void signInPage() {
-        driver = Base_Page.getDriver();
+    
+    @BeforeClass      
+    public void setup() {
+        super.setup(); // Base_Page setup ko call karna
         TC01_Sign_in_Page signInPage = new TC01_Sign_in_Page();
         signInPage.setup(); // Ensure the setup is called for initialization
         signInPage.testsignin(); // Sign in before proceeding
@@ -28,6 +26,6 @@ public class TC09_Inventory_Page extends Base_Page {
 
     @AfterClass
     public void teardown() {
-        Base_Page.quitDriver();
+        super.tearDown();
     }
 }

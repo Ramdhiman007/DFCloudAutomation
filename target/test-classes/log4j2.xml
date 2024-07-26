@@ -26,7 +26,7 @@
     
 
     <Loggers>
-        <Root level="Info"><!-- here you can use multiple log levels like Trace logs, Debug,Info,Warn,Error,Fatal-->
+        <Root level="Debug"><!-- here you can use multiple log levels like Trace logs, Debug,Info,Warn,Error,Fatal-->
             <!--<AppenderRef ref="Console"/>-->
             <AppenderRef ref="File"/>
         </Root>

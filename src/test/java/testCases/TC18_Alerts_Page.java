@@ -1,6 +1,5 @@
 package testCases;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -10,24 +9,22 @@ import testBase.Base_Page;
 
 public class TC18_Alerts_Page extends Base_Page {
 
-    WebDriver driver;
-
-    @BeforeClass
-    public void signInPage() {
-        driver = Base_Page.getDriver();
-        TC01_Sign_in_Page signInPage = new TC01_Sign_in_Page();
-        signInPage.setup(); // Ensure the setup is called for initialization
-        signInPage.testsignin(); // Sign in before proceeding
+    @BeforeClass      
+    public void setup() {
+        super.setup(); // Base_Page setup ko call karna
+        TC01_Sign_in_Page signInPage = new TC01_Sign_in_Page(); // TC01_Sign_in_Page ka instance banana
+        signInPage.setup(); // Setup method ko call karna initialization ke liye
+        signInPage.testsignin(); // Test se pehle sign in karna
     }
 
     @Test(priority=1)
     public void alertpage() {
-        Locators_Class lp = new Locators_Class();
-        lp.alertpage();
+        Locators_Class lp = new Locators_Class(); // Locators_Class ka instance create karna
+        lp.alertpage(); // Alert page pe navigate karna aur operations perform karna
     }
 
     @AfterClass
     public void teardown() {
-        Base_Page.quitDriver();
+        super.tearDown(); // Base_Page teardown ko call karna
     }
 }
