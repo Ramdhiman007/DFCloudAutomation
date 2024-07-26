@@ -3,13 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.TC09_Inventory_Page">
-        <methods>
-          <include name="signInPage"/>
-          <include name="invonterypage"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC09_Inventory_Page -->
       <class name="testCases.TC11_DFOD_Page">
         <methods>
           <include name="dfodpage"/>
@@ -17,55 +10,6 @@
           <include name="signInPage"/>
         </methods>
       </class> <!-- testCases.TC11_DFOD_Page -->
-      <class name="testCases.TC18_Alerts_Page">
-        <methods>
-          <include name="alertpage"/>
-          <include name="signInPage"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC18_Alerts_Page -->
-      <class name="testCases.TC10_Tickets_Page">
-        <methods>
-          <include name="teardown"/>
-          <include name="signInPage"/>
-          <include name="ticketspage"/>
-        </methods>
-      </class> <!-- testCases.TC10_Tickets_Page -->
-      <class name="testCases.TC04_Groups_Page">
-        <methods>
-          <include name="grouppage"/>
-          <include name="teardown"/>
-          <include name="signInPage"/>
-        </methods>
-      </class> <!-- testCases.TC04_Groups_Page -->
-      <class name="testCases.TC03_Computers_Page">
-        <methods>
-          <include name="computerPage"/>
-          <include name="signInPage"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC03_Computers_Page -->
-      <class name="testCases.TC16_Tag_Page">
-        <methods>
-          <include name="tagpage"/>
-          <include name="teardown"/>
-          <include name="signInPage"/>
-        </methods>
-      </class> <!-- testCases.TC16_Tag_Page -->
-      <class name="testCases.TC13_MDM_Page">
-        <methods>
-          <include name="signInPage"/>
-          <include name="mdmpage"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC13_MDM_Page -->
-      <class name="testCases.TC05_Policies_Page">
-        <methods>
-          <include name="grouppage"/>
-          <include name="signInPage"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC05_Policies_Page -->
       <class name="testCases.TC02_Signup_Page">
         <methods>
           <include name="testsignup"/>
@@ -73,41 +17,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC02_Signup_Page -->
-      <class name="testCases.TC06_Application_Page">
-        <methods>
-          <include name="signInPage"/>
-          <include name="teardown"/>
-          <include name="applicationpage"/>
-        </methods>
-      </class> <!-- testCases.TC06_Application_Page -->
-      <class name="testCases.TC08_Imaging_Page">
-        <methods>
-          <include name="imagingpage"/>
-          <include name="teardown"/>
-          <include name="signInPage"/>
-        </methods>
-      </class> <!-- testCases.TC08_Imaging_Page -->
-      <class name="testCases.TC12_UsageStats_Page">
-        <methods>
-          <include name="usagestats"/>
-          <include name="signInPage"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC12_UsageStats_Page -->
-      <class name="testCases.TC07_WindowsUpdate_Page">
-        <methods>
-          <include name="teardown"/>
-          <include name="wupage"/>
-          <include name="signInPage"/>
-        </methods>
-      </class> <!-- testCases.TC07_WindowsUpdate_Page -->
-      <class name="testCases.TC17_TaskStatus_Page">
-        <methods>
-          <include name="signInPage"/>
-          <include name="teardown"/>
-          <include name="taskstatus"/>
-        </methods>
-      </class> <!-- testCases.TC17_TaskStatus_Page -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

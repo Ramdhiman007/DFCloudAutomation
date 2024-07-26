@@ -23,7 +23,7 @@ public class TC09_Inventory_Page extends Base_Page {
     @Test(priority=1)
     public void invonterypage() {
         Locators_Class lp = new Locators_Class();
-        lp.invonterypage();
+        lp.inventorypage();
     }
 
     @AfterClass
