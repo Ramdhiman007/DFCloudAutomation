@@ -27,8 +27,8 @@ public class TC04_Groups_Page extends pageObjects.Base_Page {
     	
     }
 
-    //@AfterClass
-    //public void teardown() {
-    //    super.tearDown();
+    @AfterClass
+    public void teardown() {
+      super.tearDown();
     }
-//}
+}
