@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  <parameter name="OS" value="Windows"/>
-  <parameter name="browser" value="chrome"/>
-  
+	<parameter name="os" value="Windows"/>
+	<parameter name="browser" value="firefox"/>
+	
     <classes>
       <class name="testCases.TC02_Signup_Page"/>
       <class name="testCases.TC01_Sign_in_Page"/>
@@ -22,8 +22,6 @@
       <class name="testCases.TC16_Tag_Page"/>
       <class name="testCases.TC17_TaskStatus_Page"/>
       <class name="testCases.TC18_Alerts_Page"/>
-      
-      
-          </classes>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

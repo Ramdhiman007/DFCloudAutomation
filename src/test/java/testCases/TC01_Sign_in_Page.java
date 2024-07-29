@@ -1,50 +1,56 @@
 package testCases;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
+import pageObjects.Base_Page;
 import pageObjects.Locators_Class;
-import testBase.Base_Page;
 
 public class TC01_Sign_in_Page extends Base_Page {
-    
-    WebDriver driver;
-    
-    @BeforeClass      
+
+    @BeforeClass
     public void setup() {
-        super.setup(); // Base_Page setup ko call karna
+        // Parent class Base_Page ka setup method call karna
+        super.setup(toString(), toString());
     }
-    
+
     @Test(priority=1)
     public void testsignin() {
-        logger.info("*** TC01_Sign_in_Page test shuru ho raha hai *****");
+        logger.info("*** TC01_Sign_in_Page test shuru ho raha hai ***");
         logger.debug("Yeh ek debug log message hai");
-        
+
         try {
-            Locators_Class lp = new Locators_Class(); // Locators_Class ka instance create karna
+            // Locators_Class ka instance create karna
+            Locators_Class lp = new Locators_Class();
             lp.enterUserName("jaimatadi123@gmail.com"); // Username enter karna
             logger.info("Username text box me enter kiya");
+
             lp.clickNextbtn(); // Next button pe click karna
             logger.info("Next button pe click kiya");
+
             lp.enterpassword("Aloha@123"); // Password enter karna
             logger.info("Password text box me enter kiya");
+
             lp.clickSignbtn(); // Sign-in button pe click karna
             logger.info("Sign-in button pe click kiya");
-            //Assert.assertEquals(confmsg, "You Signned in properly");
+
+            // Assert karke check karna ki sign-in successful hua ya nahi
+            // String confmsg = lp.getConfirmationMessage(); // Confirmation message retrieve karna (assuming a method exists)
+            // Assert.assertEquals(confmsg, "You Signed in properly");
+
         } catch (Exception e) {
-            logger.error("Test fail ho gaya");
+            logger.error("Test fail ho gaya", e);
             logger.debug("Debug Logs..");
-            Assert.fail(); // Test ko fail karna
+            Assert.fail("Exception aayi: " + e.getMessage()); // Exception message ke sath test ko fail karna
         }
-        
-        logger.info("*** TC01_Sign_in_Page test ke logs khatam *****");
+
+        logger.info("*** TC01_Sign_in_Page test ke logs khatam ***");
     }
-    
+
     @AfterClass
     public void teardown() {
-        super.tearDown(); // Base_Page tearDown ko call karna
+        // Parent class Base_Page ka tearDown method call karna
+        super.tearDown();
     }
 }

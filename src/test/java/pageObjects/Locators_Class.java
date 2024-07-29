@@ -2,7 +2,6 @@ package pageObjects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import testBase.Base_Page;
 
 public class Locators_Class extends Base_Page {
     public Locators_Class() {
@@ -26,8 +25,23 @@ public class Locators_Class extends Base_Page {
     @FindBy(xpath="//a[normalize-space()='COMPUTERS']")
     WebElement clickcomputerpage; // Computers page link
 
+    
+    
     @FindBy(xpath="//a[@href='/en/Group/List'][normalize-space()='GROUPS']")
     WebElement clickgrouppage; // Groups page link
+    @FindBy(xpath="//span[@class='imgTextHome']")
+    WebElement click_addbtn;
+    @FindBy(xpath="//input[@id='Name']")
+    WebElement txt_gpname; // Groups page link
+    @FindBy(xpath="//select[@id='lstGroupName']")
+    WebElement click_ptdbtn;
+    @FindBy(xpath="//button[@id='btnAddGroup']")
+    WebElement clickon_addbtn;
+
+    
+    
+    
+    
 
     @FindBy(xpath="//a[normalize-space()='POLICIES']")
     WebElement clickpoliciespage; // Policies page link
@@ -126,8 +140,28 @@ public class Locators_Class extends Base_Page {
         clickcomputerpage.click(); // Computers page link click karna
     }
 
+      
     public void clickgrouppage() {
         clickgrouppage.click(); // Groups page link click karna
+    }
+    
+    public void clickAddbtn()
+    {
+    	click_addbtn.click();
+    }
+    public void entergpname(String Dhiman) 
+    {
+          txt_gpname.sendKeys(Dhiman); // Groups name Enter karna
+    }
+
+     public void clickParentGroup()
+    {
+        	click_ptdbtn.click();
+    }
+      public void  clickonaddbtn()
+    {
+            clickon_addbtn.click();
+
     }
 
     public void clickpoliciespage() {

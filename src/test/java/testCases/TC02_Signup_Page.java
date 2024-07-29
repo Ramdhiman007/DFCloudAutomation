@@ -4,15 +4,14 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageObjects.Locators_Class;
-import testBase.Base_Page;
 
-public class TC02_Signup_Page extends Base_Page {
+public class TC02_Signup_Page extends pageObjects.Base_Page {
     
 
     
-    @BeforeClass      
+	@BeforeClass      
     public void setup() {
-        super.setup(); // Base_Page setup ko call karna
+        super.setup(toString(), toString()); // Base_Page setup ko call karna
     }
     
     
