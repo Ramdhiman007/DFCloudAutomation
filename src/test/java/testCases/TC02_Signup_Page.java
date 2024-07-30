@@ -28,7 +28,7 @@ public class TC02_Signup_Page extends pageObjects.Base_Page {
         sg.enteremailid(randomeString() + "@gmail.com"); // Random email ID generate karna
         sg.enterCompanyname(randomeString().toUpperCase()); // Random company name enter karna
         sg.enterphone(randomeAlphaNumberic()); // Random phone number enter karna
-        sg.selectCountry(); // Country select karna
+        sg.selectCountry("Armenia"); // Country select karna
         sg.clickCaptcha(); // Captcha click karna
         sg.enterCaptcha("EnterCaptchaTextHere"); // Actual captcha text yahan daalein
         sg.clickCheckbox(); // Checkbox ko click karna

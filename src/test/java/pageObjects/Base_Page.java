@@ -62,7 +62,7 @@ public class Base_Page {
         return driver;
     }
     
-    // Randomly generated string return karna (alphabetic)
+    // Randomly generated string return karna (alphabetic) This is for Signup Page
     public String randomeString() {
         return RandomStringUtils.randomAlphabetic(10); // Random alphabetic string generate karna
     }

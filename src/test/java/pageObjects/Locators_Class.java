@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class Locators_Class extends Base_Page {
     public Locators_Class() {
@@ -102,8 +103,8 @@ public class Locators_Class extends Base_Page {
     WebElement txt_Phone; // Phone field
 
     @FindBy(xpath="//select[@id='ddlcountry']")
-    WebElement selectcountry; // Country dropdown
-
+    WebElement dropdown_country; // Country dropdown
+    
     @FindBy(xpath="//input[@id='Captcha']")
     WebElement clickoncaptcha; // Captcha field
 
@@ -149,20 +150,23 @@ public class Locators_Class extends Base_Page {
     {
     	click_addbtn.click();
     }
-    public void entergpname(String Dhiman) 
+    public void entergpname(String groupname) 
     {
-          txt_gpname.sendKeys(Dhiman); // Groups name Enter karna
+          txt_gpname.sendKeys(groupname); // Groups name Enter karna
     }
 
-     public void clickParentGroup()
+    public void selectptgroup(String ptgroup)
     {
-        	click_ptdbtn.click();
+    	Select drpPTGroup = new Select(click_ptdbtn);
+    	drpPTGroup.selectByVisibleText(ptgroup); // PT group select kerna
+    
     }
       public void  clickonaddbtn()
     {
             clickon_addbtn.click();
 
     }
+      
 
     public void clickpoliciespage() {
         clickpoliciespage.click(); // Policies page link click karna
@@ -241,10 +245,11 @@ public class Locators_Class extends Base_Page {
         txt_Phone.sendKeys(number); // Phone number enter karna
     }
 
-    public void selectCountry() {
-        selectcountry.click(); // Country dropdown select karna
+    public void selectCountry(String country) {
+        Select drpCountry = new Select(dropdown_country);
+        drpCountry.selectByVisibleText(country); // Country dropdown select karna
     }
-
+    
     public void clickCaptcha() {
         clickoncaptcha.click(); // Captcha field click karna
     }

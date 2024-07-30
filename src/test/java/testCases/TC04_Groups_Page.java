@@ -20,10 +20,14 @@ public class TC04_Groups_Page extends pageObjects.Base_Page {
         Locators_Class gp = new Locators_Class();
         gp.clickgrouppage();
         gp.clickAddbtn();
-        gp.entergpname("Dhiman1");
-        gp.clickParentGroup();
+        gp.entergpname(randomeString().toUpperCase()); // Random first name enter karna
+        gp.selectptgroup("Default");
         gp.clickonaddbtn();
-    
+     // Wait for the group to be added and displayed
+     
+        
+        
+        
     	
     }
 
