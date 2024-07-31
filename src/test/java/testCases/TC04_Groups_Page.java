@@ -22,6 +22,7 @@ public class TC04_Groups_Page extends pageObjects.Base_Page {
         gp.clickAddbtn();
         gp.entergpname(randomeString().toUpperCase()); // Random first name enter karna
         gp.selectptgroup("Default");
+        gp.selectinpolicy("Faronics Default");
         gp.clickonaddbtn();
      // Wait for the group to be added and displayed
      

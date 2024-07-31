@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
 	<parameter name="os" value="Windows"/>
-	<parameter name="browser" value="firefox"/>
+	<parameter name="browser" value="chrome"/>
 	
     <classes>
       <class name="testCases.TC02_Signup_Page"/>

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC04_Groups_Page">
+      <class name="testCases.TC05_Policies_Page">
         <methods>
           <include name="setup"/>
-          <include name="grouppage"/>
+          <include name="policypage1"/>
           <include name="tearDown"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC04_Groups_Page -->
+      </class> <!-- testCases.TC05_Policies_Page -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -38,14 +38,26 @@ public class Locators_Class extends Base_Page {
     WebElement click_ptdbtn;
     @FindBy(xpath="//button[@id='btnAddGroup']")
     WebElement clickon_addbtn;
+    @FindBy(xpath="//select[@id='lstPolicyName']")
+    WebElement clickon_enforcedpolicy;
 
     
     
     
     
-
+// From here Policies page start
     @FindBy(xpath="//a[normalize-space()='POLICIES']")
     WebElement clickpoliciespage; // Policies page link
+    @FindBy(xpath="//a[@id='aAdd_Policy']")
+    WebElement clickaddpbtn;
+    @FindBy(xpath="//a[@id='P1']")
+    WebElement click_drppolicy;
+    @FindBy(xpath="//input[@id='Name']")
+    WebElement enterpolicyname;
+    @FindBy(xpath="//input[@id='btnSave']")
+    WebElement clickonsavebtn;
+    
+    
 
     @FindBy(xpath="//a[normalize-space()='APPLICATIONS']")
     WebElement applicationpage; // Applications page link
@@ -141,7 +153,7 @@ public class Locators_Class extends Base_Page {
         clickcomputerpage.click(); // Computers page link click karna
     }
 
-      
+  //Start here from Group Page    
     public void clickgrouppage() {
         clickgrouppage.click(); // Groups page link click karna
     }
@@ -159,18 +171,42 @@ public class Locators_Class extends Base_Page {
     {
     	Select drpPTGroup = new Select(click_ptdbtn);
     	drpPTGroup.selectByVisibleText(ptgroup); // PT group select kerna
-    
+    } 	
+    	
+   public void selectinpolicy(String inpolicy) 	{
+	  
+    	Select enforcepolicy = new Select(clickon_enforcedpolicy);
+    	enforcepolicy.selectByVisibleText(inpolicy); // Inforced policy select kerna
     }
       public void  clickonaddbtn()
     {
             clickon_addbtn.click();
 
     }
-      
-
+     // From Here Policies Page Start 
     public void clickpoliciespage() {
         clickpoliciespage.click(); // Policies page link click karna
     }
+    public void addbtn()
+    {
+    	clickaddpbtn.click();
+    }
+    public void clickadbutton()
+    {
+    	click_drppolicy.click();
+    }
+    public void enterpolicyname(String policyname)
+    {
+    	enterpolicyname.sendKeys(policyname);
+    }
+    public void clicksavebtn()
+    {
+    	clickonsavebtn.click();
+    }
+    
+    
+    
+    
 
     public void applicationpage() {
         applicationpage.click(); // Applications page link click karna
@@ -224,6 +260,8 @@ public class Locators_Class extends Base_Page {
         clickalertpage.click(); // Alerts page link click karna
     }
 
+    
+  //Signup Page Start from Here  
     // Signup Action Methods
     public void enterFirstName(String UserName) {
         txt_FirstName.sendKeys(UserName); // First Name enter karna

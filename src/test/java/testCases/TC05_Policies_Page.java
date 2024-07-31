@@ -1,6 +1,5 @@
 package testCases;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -9,8 +8,7 @@ import pageObjects.Locators_Class;
 
 public class TC05_Policies_Page extends pageObjects.Base_Page {
 
-    WebDriver driver;
-
+    
     @BeforeClass      
     public void setup() {
         super.setup(toString(), toString()); // Base_Page setup ko call karna
@@ -20,10 +18,24 @@ public class TC05_Policies_Page extends pageObjects.Base_Page {
     }
 
     @Test(priority=1)
-    public void grouppage() {
+    public void policypage() {
         Locators_Class lp = new Locators_Class();
         lp.clickpoliciespage();
+        lp.addbtn();
+        lp.clickadbutton();
     }
+    
+   @Test(priority=2)  // Add New Policy
+    public void policypage1()
+    {
+    	Locators_Class wp=new Locators_Class();
+    	
+    	wp.addbtn();
+        wp.clickadbutton();
+        wp.enterpolicyname("55dhiman");
+        wp.clicksavebtn();
+        
+    } 
 
     @AfterClass
     public void teardown() {
