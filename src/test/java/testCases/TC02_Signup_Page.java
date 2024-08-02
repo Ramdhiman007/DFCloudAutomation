@@ -1,9 +1,8 @@
 package testCases;
 
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pageObjects.Locators_Class;
+import pageObjects.Signup_Page;
 
 public class TC02_Signup_Page extends pageObjects.Base_Page {
     
@@ -17,7 +16,7 @@ public class TC02_Signup_Page extends pageObjects.Base_Page {
     
     @Test(priority=1)
     public void testsignup() {
-        Locators_Class sg = new Locators_Class(); // Locators_Class ka instance create karna
+    	Signup_Page sg = new Signup_Page(); // Locators_Class ka instance create karna
         
         // Signup page pe navigate karna
         getDriver().get("https://www1.faronicsbeta.com/Cloud/en");
@@ -36,8 +35,5 @@ public class TC02_Signup_Page extends pageObjects.Base_Page {
         sg.clickSignUp(); // Sign Up button pe click karna
     }
         
-    @AfterClass
-    public void teardown() {
-        super.tearDown(); // Base_Page tearDown ko call karna
-    }
+    
 }

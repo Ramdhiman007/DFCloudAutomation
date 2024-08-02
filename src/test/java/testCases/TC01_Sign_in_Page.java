@@ -1,19 +1,17 @@
 package testCases;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageObjects.Base_Page;
-import pageObjects.Locators_Class;
+import pageObjects.Signin_Page;
 
 public class TC01_Sign_in_Page extends Base_Page {
 
-    @BeforeClass
+   /* @BeforeClass
     public void setup() {
         // Parent class Base_Page ka setup method call karna
         super.setup(toString(), toString());
-    }
+    }*/
 
     @Test(priority=1)
     public void testsignin() {
@@ -22,7 +20,7 @@ public class TC01_Sign_in_Page extends Base_Page {
 
         try {
             // Locators_Class ka instance create karna
-            Locators_Class lp = new Locators_Class();
+            Signin_Page lp = new Signin_Page();
             lp.enterUserName("jaimatadi123@gmail.com"); // Username enter karna
             logger.info("Username text box me enter kiya");
 
@@ -48,9 +46,6 @@ public class TC01_Sign_in_Page extends Base_Page {
         logger.info("*** TC01_Sign_in_Page test ke logs khatam ***");
     }
 
-    @AfterClass
-    public void teardown() {
-        // Parent class Base_Page ka tearDown method call karna
-        super.tearDown();
-    }
+   
+   
 }

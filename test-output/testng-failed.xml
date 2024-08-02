@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC05_Policies_Page">
+      <class name="testCases.TC16_Tag_Page">
         <methods>
           <include name="setup"/>
-          <include name="policypage1"/>
+          <include name="tagpage"/>
           <include name="tearDown"/>
-          <include name="teardown"/>
+        </methods>
+      </class> <!-- testCases.TC16_Tag_Page -->
+      <class name="testCases.TC11_DFOD_Page">
+        <methods>
+          <include name="setup"/>
+          <include name="dfodpage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC11_DFOD_Page -->
+      <class name="testCases.TC02_Signup_Page">
+        <methods>
+          <include name="setup"/>
+          <include name="testsignup"/>
+          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC05_Policies_Page -->
+      </class> <!-- testCases.TC02_Signup_Page -->
+      <class name="testCases.TC17_TaskStatus_Page">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="taskstatus"/>
+        </methods>
+      </class> <!-- testCases.TC17_TaskStatus_Page -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

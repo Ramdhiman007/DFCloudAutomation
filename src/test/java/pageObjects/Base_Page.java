@@ -10,8 +10,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -20,7 +20,7 @@ public class Base_Page {
     public static WebDriver driver; // WebDriver instance
     public Logger logger; // Logger instance
     public WebDriverWait wait; // WebDriverWait instance
-    @BeforeClass
+    @BeforeTest
     @Parameters({"os", "browser"})
     public void setup(@Optional("Windows") String os, @Optional("chrome") String br) {
         logger = LogManager.getLogger(this.getClass()); // Logger initialize karna
@@ -51,7 +51,7 @@ public class Base_Page {
         }
     }
     
-    @AfterClass
+    @AfterTest
     public void tearDown() {
         // WebDriver ko quit karna
         if (driver != null) {
@@ -76,8 +76,8 @@ public class Base_Page {
     
     // Randomly generated alphanumeric string with special character
     public String randomeAlphaNumberic() {
-        String generatedstring = RandomStringUtils.randomAlphabetic(10); // Random alphabetic string generate karna
-        String generatednumber = RandomStringUtils.randomNumeric(10); // Random numeric string generate karna
+        String generatedstring = RandomStringUtils.randomAlphabetic(5); // Random alphabetic string generate karna
+        String generatednumber = RandomStringUtils.randomNumeric(5); // Random numeric string generate karna
         return generatedstring + "@" + generatednumber; // Combine karke return karna
     }
 

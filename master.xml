@@ -6,7 +6,6 @@
 	<parameter name="browser" value="chrome"/>
 	
     <classes>
-      <class name="testCases.TC02_Signup_Page"/>
       <class name="testCases.TC01_Sign_in_Page"/>
       <class name="testCases.TC03_Computers_Page"/>
       <class name="testCases.TC04_Groups_Page"/>
@@ -22,6 +21,7 @@
       <class name="testCases.TC16_Tag_Page"/>
       <class name="testCases.TC17_TaskStatus_Page"/>
       <class name="testCases.TC18_Alerts_Page"/>
+      <class name="testCases.TC02_Signup_Page"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

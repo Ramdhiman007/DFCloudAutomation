@@ -1,23 +1,15 @@
 package testCases;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import pageObjects.Locators_Class;
+import pageObjects.Group_Pages;
 
 public class TC04_Groups_Page extends pageObjects.Base_Page {
-    @BeforeClass      
-    public void setup() {
-        super.setup(toString(), toString()); // Base_Page setup ko call karna
-        TC01_Sign_in_Page signInPage = new TC01_Sign_in_Page();
-        signInPage.setup(); // Ensure the setup is called for initialization
-        signInPage.testsignin(); // Sign in before proceeding
-    }
+    
 
     @Test(priority=1)
     public void grouppage() {
-        Locators_Class gp = new Locators_Class();
+    	Group_Pages gp = new Group_Pages();
         gp.clickgrouppage();
         gp.clickAddbtn();
         gp.entergpname(randomeString().toUpperCase()); // Random first name enter karna
@@ -32,8 +24,5 @@ public class TC04_Groups_Page extends pageObjects.Base_Page {
     	
     }
 
-    @AfterClass
-    public void teardown() {
-      super.tearDown();
-    }
+    
 }
