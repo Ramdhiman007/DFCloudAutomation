@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
@@ -16,9 +17,9 @@ import org.testng.annotations.Parameters;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base_Page {
-    private static WebDriver driver; // WebDriver instance
+    public static WebDriver driver; // WebDriver instance
     public Logger logger; // Logger instance
-    
+    public WebDriverWait wait; // WebDriverWait instance
     @BeforeClass
     @Parameters({"os", "browser"})
     public void setup(@Optional("Windows") String os, @Optional("chrome") String br) {
@@ -43,7 +44,8 @@ public class Base_Page {
         }
 
         if (driver != null) {
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); // Implicit wait set karna
+        	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); // Implicit wait set karna
+            wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // Initialize WebDriverWait
             driver.get("https://www1.faronicsbeta.com/en/Account/Login"); // URL open karna
             driver.manage().window().maximize(); // Window ko maximize karna
         }

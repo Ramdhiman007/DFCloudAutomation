@@ -8,7 +8,7 @@ import pageObjects.Locators_Class;
 
 public class TC05_Policies_Page extends pageObjects.Base_Page {
 
-    
+   
     @BeforeClass      
     public void setup() {
         super.setup(toString(), toString()); // Base_Page setup ko call karna
@@ -21,19 +21,17 @@ public class TC05_Policies_Page extends pageObjects.Base_Page {
     public void policypage() {
         Locators_Class lp = new Locators_Class();
         lp.clickpoliciespage();
-        lp.addbtn();
-        lp.clickadbutton();
+        
     }
     
    @Test(priority=2)  // Add New Policy
     public void policypage1()
     {
-    	Locators_Class wp=new Locators_Class();
-    	
-    	wp.addbtn();
-        wp.clickadbutton();
-        wp.enterpolicyname("55dhiman");
-        wp.clicksavebtn();
+       Locators_Class wp=new Locators_Class();
+	   wp.addbtn();
+	   wp.clickadbutton();
+       wp.enterPolicyName(randomeString().toUpperCase());
+	   wp.clicksavebtn();
         
     } 
 

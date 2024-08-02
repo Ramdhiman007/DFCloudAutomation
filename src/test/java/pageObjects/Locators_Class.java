@@ -195,10 +195,10 @@ public class Locators_Class extends Base_Page {
     {
     	click_drppolicy.click();
     }
-    public void enterpolicyname(String policyname)
-    {
-    	enterpolicyname.sendKeys(policyname);
-    }
+    public void enterPolicyName(String policyName) {
+        enterpolicyname.sendKeys(policyName);
+            
+    }    
     public void clicksavebtn()
     {
     	clickonsavebtn.click();
