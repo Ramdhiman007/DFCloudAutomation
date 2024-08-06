@@ -7,8 +7,8 @@ public class TC16_Tag_Page extends pageObjects.Base_Page {
 
 	@Test(priority=1)
     public void tagpage() {
-		Tag_Page lp = new Tag_Page();
-        lp.tagpage();
+		Tag_Page tag = new Tag_Page();
+        tag.tagpage();
     }
 
     

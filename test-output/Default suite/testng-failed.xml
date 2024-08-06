@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC03_Computers_Page">
+      <class name="testCases.TC19_Users_Management_Page">
         <methods>
           <include name="setup"/>
-          <include name="computerPageTest"/>
           <include name="tearDown"/>
+          <include name="UserManagement_Page"/>
+          <include name="AddCloudUser"/>
         </methods>
-      </class> <!-- testCases.TC03_Computers_Page -->
+      </class> <!-- testCases.TC19_Users_Management_Page -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

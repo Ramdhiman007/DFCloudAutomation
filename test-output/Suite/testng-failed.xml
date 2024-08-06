@@ -12,13 +12,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.TC16_Tag_Page -->
-      <class name="testCases.TC11_DFOD_Page">
-        <methods>
-          <include name="setup"/>
-          <include name="dfodpage"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testCases.TC11_DFOD_Page -->
       <class name="testCases.TC02_Signup_Page">
         <methods>
           <include name="setup"/>

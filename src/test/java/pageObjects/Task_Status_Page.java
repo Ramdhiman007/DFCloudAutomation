@@ -10,7 +10,7 @@ public class Task_Status_Page extends pageObjects.Base_Page {
     }
     
     //Locators
-    @FindBy(xpath="//span[@title='Task Status']")
+    @FindBy(xpath="//span[@id='dvTaskStatus']")
     WebElement clickstaskstatus; // Task Status page link
     
     

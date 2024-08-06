@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class DFOD_Page extends pageObjects.Base_Page {
     public DFOD_Page() {
@@ -11,7 +12,7 @@ public class DFOD_Page extends pageObjects.Base_Page {
     @FindBy(xpath="//a[normalize-space()='DEEP FREEZE ON DEMAND']")
     WebElement clickdfodpage; // Deep Freeze on Demand page link
 
-    @FindBy(xpath="//a[normalize-space()='MANAGE SCHEDULES']")
+   /* @FindBy(xpath="//a[normalize-space()='MANAGE SCHEDULES']")
     WebElement clickschedule; // Manage Schedules page link
 
     @FindBy(xpath="//a[normalize-space()='CLOUD RELAYS']")
@@ -19,15 +20,20 @@ public class DFOD_Page extends pageObjects.Base_Page {
     
     //Actions
     public void dfodpage() {
-        clickdfodpage.click(); // Deep Freeze on Demand page link click karna
+       
+    	clickdfodpage.click(); // Deep Freeze on Demand page link click karna
     }
 
-    public void dfodschedule() {
-        clickschedule.click(); // Manage Schedules page link click karna
+    public void dfodschedule(String clickschedule1)
+    {
+    	Select dfodschedule = new Select(clickschedule);
+    	dfodschedule .selectByVisibleText(clickschedule1); 
     }
 
-    public void cloudrelay() {
-        clickrelay.click(); // Cloud Relays page link click karna
-    }
+    public void dfodsRelay(String clicksRelay)
+    {
+    	Select dfodschedule = new Select(clickschedule);
+    	dfodschedule .selectByVisibleText(clicksRelay); 
 
+}  */
 }
