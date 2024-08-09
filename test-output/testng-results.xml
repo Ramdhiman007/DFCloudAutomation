@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="16" failed="3" skipped="0">
+<testng-results ignored="0" total="18" passed="16" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-06T19:50:50 IST" name="Suite" finished-at="2024-08-06T19:51:43 IST" duration-ms="53122">
+  <suite started-at="2024-08-09T19:28:41 IST" name="Suite" finished-at="2024-08-09T19:30:04 IST" duration-ms="82984">
     <groups>
     </groups>
-    <test started-at="2024-08-06T19:50:50 IST" name="Test" finished-at="2024-08-06T19:51:43 IST" duration-ms="53122">
+    <test started-at="2024-08-09T19:28:41 IST" name="Test" finished-at="2024-08-09T19:30:04 IST" duration-ms="82984">
       <class name="testCases.TC03_Computers_Page">
-        <test-method signature="computerPageTest()[pri:1, instance:testCases.TC03_Computers_Page@79da1ec0]" started-at="2024-08-06T19:51:01 IST" name="computerPageTest" finished-at="2024-08-06T19:51:16 IST" duration-ms="14348" status="PASS">
+        <test-method signature="computerPageTest()[pri:1, instance:testCases.TC03_Computers_Page@4fc5e095]" started-at="2024-08-09T19:28:59 IST" name="computerPageTest" finished-at="2024-08-09T19:29:14 IST" duration-ms="15478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- computerPageTest -->
       </class> <!-- testCases.TC03_Computers_Page -->
       <class name="testCases.TC12_UsageStats_Page">
-        <test-method signature="usagestats()[pri:1, instance:testCases.TC12_UsageStats_Page@5bfa8cc5]" started-at="2024-08-06T19:51:35 IST" name="usagestats" finished-at="2024-08-06T19:51:37 IST" duration-ms="1920" status="PASS">
+        <test-method signature="usagestats()[pri:1, instance:testCases.TC12_UsageStats_Page@556d0826]" started-at="2024-08-09T19:29:55 IST" name="usagestats" finished-at="2024-08-09T19:29:58 IST" duration-ms="2844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usagestats -->
       </class> <!-- testCases.TC12_UsageStats_Page -->
       <class name="testCases.TC11_DFOD_Page">
-        <test-method signature="dfodpage()[pri:1, instance:testCases.TC11_DFOD_Page@55b5f5d2]" started-at="2024-08-06T19:51:35 IST" name="dfodpage" finished-at="2024-08-06T19:51:35 IST" duration-ms="1" status="PASS">
+        <test-method signature="dfodpage()[pri:1, instance:testCases.TC11_DFOD_Page@27953a83]" started-at="2024-08-09T19:29:52 IST" name="dfodpage" finished-at="2024-08-09T19:29:55 IST" duration-ms="3052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dfodpage -->
       </class> <!-- testCases.TC11_DFOD_Page -->
       <class name="testCases.TC17_TaskStatus_Page">
-        <test-method signature="taskstatus()[pri:1, instance:testCases.TC17_TaskStatus_Page@efde75f]" started-at="2024-08-06T19:51:39 IST" name="taskstatus" finished-at="2024-08-06T19:51:40 IST" duration-ms="1047" status="FAIL">
+        <test-method signature="taskstatus()[pri:1, instance:testCases.TC17_TaskStatus_Page@5bfa8cc5]" started-at="2024-08-09T19:30:00 IST" name="taskstatus" finished-at="2024-08-09T19:30:01 IST" duration-ms="1077" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <span class="cust-icon-task-status" id="dvTaskStatus" title="Task Status"></span> is not clickable at point (1202, 44). Other element would receive the click: <div class="dx-overlay-wrapper dx-loadpanel-wrapper dx-overlay-modal dx-overlay-shader" data-bind="dxControlsDescendantBindings: true" style="z-index: 1501; position: fixed; width: 100%; height: 100%; left: 0px; top: 0px; transform: translate(0px, 0px); background-color: transparent;">...</div>
-  (Session info: chrome=127.0.6533.89)
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [486c5fd032df8e6a1869539dc65bf734, clickElement {id=f.70F575FDA52D56B23BA440CCBBAAA36E.d.1571447B4546D5319126BD50AA12E205.e.1583}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (486c5fd032df8e6a1869539dc65bf734)] -> xpath: //span[@id='dvTaskStatus']]
-Session ID: 486c5fd032df8e6a1869539dc65bf734]]>
+Command: [6797e370ca04f80295b8f1845f3eef3c, clickElement {id=f.14F05AA05EFD5A4ECB845891B543E0A7.d.89FD3BBF49974BDDD7FD7A0AFD1D323A.e.1725}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51825/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6797e370ca04f80295b8f1845f3eef3c)] -> id: dvTaskStatus]
+Session ID: 6797e370ca04f80295b8f1845f3eef3c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="cust-icon-task-status" id="dvTaskStatus" title="Task Status"></span> is not clickable at point (1202, 44). Other element would receive the click: <div class="dx-overlay-wrapper dx-loadpanel-wrapper dx-overlay-modal dx-overlay-shader" data-bind="dxControlsDescendantBindings: true" style="z-index: 1501; position: fixed; width: 100%; height: 100%; left: 0px; top: 0px; transform: translate(0px, 0px); background-color: transparent;">...</div>
-  (Session info: chrome=127.0.6533.89)
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [486c5fd032df8e6a1869539dc65bf734, clickElement {id=f.70F575FDA52D56B23BA440CCBBAAA36E.d.1571447B4546D5319126BD50AA12E205.e.1583}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (486c5fd032df8e6a1869539dc65bf734)] -> xpath: //span[@id='dvTaskStatus']]
-Session ID: 486c5fd032df8e6a1869539dc65bf734
+Command: [6797e370ca04f80295b8f1845f3eef3c, clickElement {id=f.14F05AA05EFD5A4ECB845891B543E0A7.d.89FD3BBF49974BDDD7FD7A0AFD1D323A.e.1725}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51825/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6797e370ca04f80295b8f1845f3eef3c)] -> id: dvTaskStatus]
+Session ID: 6797e370ca04f80295b8f1845f3eef3c
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -63,7 +63,7 @@ at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
 at pageObjects.Task_Status_Page.taskstatus(Task_Status_Page.java:19)
 at testCases.TC17_TaskStatus_Page.taskstatus(TC17_TaskStatus_Page.java:11)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -99,139 +99,60 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- taskstatus -->
       </class> <!-- testCases.TC17_TaskStatus_Page -->
-      <class name="testCases.TC02_Signup_Page">
-        <test-method signature="testsignup()[pri:1, instance:testCases.TC02_Signup_Page@4a3329b9]" started-at="2024-08-06T19:51:42 IST" name="testsignup" finished-at="2024-08-06T19:51:43 IST" duration-ms="915" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=127.0.6533.89)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [486c5fd032df8e6a1869539dc65bf734, sendKeysToElement {id=f.70F575FDA52D56B23BA440CCBBAAA36E.d.6672DB7CCCC965288E14C0BDB2D908C2.e.1876, value=[Ljava.lang.CharSequence;@49f40c00}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (486c5fd032df8e6a1869539dc65bf734)] -> xpath: //img[@id='m_imgCaptcha']]
-Session ID: 486c5fd032df8e6a1869539dc65bf734]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=127.0.6533.89)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [486c5fd032df8e6a1869539dc65bf734, sendKeysToElement {id=f.70F575FDA52D56B23BA440CCBBAAA36E.d.6672DB7CCCC965288E14C0BDB2D908C2.e.1876, value=[Ljava.lang.CharSequence;@49f40c00}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (486c5fd032df8e6a1869539dc65bf734)] -> xpath: //img[@id='m_imgCaptcha']]
-Session ID: 486c5fd032df8e6a1869539dc65bf734
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
-at pageObjects.Signup_Page.enterCaptcha(Signup_Page.java:79)
-at testCases.TC02_Signup_Page.testsignup(TC02_Signup_Page.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testsignup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC02_Signup_Page@4a3329b9]" started-at="2024-08-06T19:51:42 IST" name="setup" finished-at="2024-08-06T19:51:42 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-      </class> <!-- testCases.TC02_Signup_Page -->
       <class name="testCases.TC10_Tickets_Page">
-        <test-method signature="ticketspage()[pri:1, instance:testCases.TC10_Tickets_Page@66ce957f]" started-at="2024-08-06T19:51:34 IST" name="ticketspage" finished-at="2024-08-06T19:51:35 IST" duration-ms="875" status="PASS">
+        <test-method signature="ticketspage()[pri:1, instance:testCases.TC10_Tickets_Page@62ea3440]" started-at="2024-08-09T19:29:47 IST" name="ticketspage" finished-at="2024-08-09T19:29:52 IST" duration-ms="5257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ticketspage -->
       </class> <!-- testCases.TC10_Tickets_Page -->
       <class name="testCases.TC09_Inventory_Page">
-        <test-method signature="invonterypage()[pri:1, instance:testCases.TC09_Inventory_Page@556d0826]" started-at="2024-08-06T19:51:34 IST" name="invonterypage" finished-at="2024-08-06T19:51:34 IST" duration-ms="752" status="PASS">
+        <test-method signature="invonterypage()[pri:1, instance:testCases.TC09_Inventory_Page@4bef0fe3]" started-at="2024-08-09T19:29:42 IST" name="invonterypage" finished-at="2024-08-09T19:29:47 IST" duration-ms="4221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invonterypage -->
       </class> <!-- testCases.TC09_Inventory_Page -->
       <class name="testCases.TC18_Alerts_Page">
-        <test-method signature="alertpage()[pri:1, instance:testCases.TC18_Alerts_Page@16ecee1]" started-at="2024-08-06T19:51:40 IST" name="alertpage" finished-at="2024-08-06T19:51:41 IST" duration-ms="671" status="PASS">
+        <test-method signature="alertpage()[pri:1, instance:testCases.TC18_Alerts_Page@666b83a4]" started-at="2024-08-09T19:30:01 IST" name="alertpage" finished-at="2024-08-09T19:30:02 IST" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertpage -->
       </class> <!-- testCases.TC18_Alerts_Page -->
       <class name="testCases.TC13_MDM_Page">
-        <test-method signature="mdmpage()[pri:1, instance:testCases.TC13_MDM_Page@666b83a4]" started-at="2024-08-06T19:51:37 IST" name="mdmpage" finished-at="2024-08-06T19:51:38 IST" duration-ms="714" status="PASS">
+        <test-method signature="mdmpage()[pri:1, instance:testCases.TC13_MDM_Page@66ce957f]" started-at="2024-08-09T19:29:58 IST" name="mdmpage" finished-at="2024-08-09T19:29:59 IST" duration-ms="1615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mdmpage -->
       </class> <!-- testCases.TC13_MDM_Page -->
       <class name="testCases.TC07_WindowsUpdate_Page">
-        <test-method signature="wupage()[pri:1, instance:testCases.TC07_WindowsUpdate_Page@62ea3440]" started-at="2024-08-06T19:51:31 IST" name="wupage" finished-at="2024-08-06T19:51:31 IST" duration-ms="840" status="PASS">
+        <test-method signature="wupage()[pri:1, instance:testCases.TC07_WindowsUpdate_Page@19fb8826]" started-at="2024-08-09T19:29:38 IST" name="wupage" finished-at="2024-08-09T19:29:39 IST" duration-ms="1446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wupage -->
       </class> <!-- testCases.TC07_WindowsUpdate_Page -->
       <class name="testCases.TC16_Tag_Page">
-        <test-method signature="tagpage()[pri:1, instance:testCases.TC16_Tag_Page@749c877b]" started-at="2024-08-06T19:51:38 IST" name="tagpage" finished-at="2024-08-06T19:51:39 IST" duration-ms="1100" status="FAIL">
+        <test-method signature="tagpage()[pri:1, instance:testCases.TC16_Tag_Page@55b5f5d2]" started-at="2024-08-09T19:29:59 IST" name="tagpage" finished-at="2024-08-09T19:30:00 IST" duration-ms="1089" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <span class="cust-icon-tags-management" title="Tags Management"></span> is not clickable at point (1162, 45). Other element would receive the click: <div class="dx-overlay-wrapper dx-loadpanel-wrapper dx-overlay-modal dx-overlay-shader" data-bind="dxControlsDescendantBindings: true" style="z-index: 1501; position: fixed; width: 100%; height: 100%; left: 0px; top: 0px; transform: translate(0px, 0px); background-color: transparent;">...</div>
-  (Session info: chrome=127.0.6533.89)
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [486c5fd032df8e6a1869539dc65bf734, clickElement {id=f.70F575FDA52D56B23BA440CCBBAAA36E.d.1571447B4546D5319126BD50AA12E205.e.1584}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (486c5fd032df8e6a1869539dc65bf734)] -> xpath: //span[@title='Tags Management']]
-Session ID: 486c5fd032df8e6a1869539dc65bf734]]>
+Command: [6797e370ca04f80295b8f1845f3eef3c, clickElement {id=f.14F05AA05EFD5A4ECB845891B543E0A7.d.89FD3BBF49974BDDD7FD7A0AFD1D323A.e.1726}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51825/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6797e370ca04f80295b8f1845f3eef3c)] -> xpath: //span[@title='Tags Management']]
+Session ID: 6797e370ca04f80295b8f1845f3eef3c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="cust-icon-tags-management" title="Tags Management"></span> is not clickable at point (1162, 45). Other element would receive the click: <div class="dx-overlay-wrapper dx-loadpanel-wrapper dx-overlay-modal dx-overlay-shader" data-bind="dxControlsDescendantBindings: true" style="z-index: 1501; position: fixed; width: 100%; height: 100%; left: 0px; top: 0px; transform: translate(0px, 0px); background-color: transparent;">...</div>
-  (Session info: chrome=127.0.6533.89)
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [486c5fd032df8e6a1869539dc65bf734, clickElement {id=f.70F575FDA52D56B23BA440CCBBAAA36E.d.1571447B4546D5319126BD50AA12E205.e.1584}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (486c5fd032df8e6a1869539dc65bf734)] -> xpath: //span[@title='Tags Management']]
-Session ID: 486c5fd032df8e6a1869539dc65bf734
+Command: [6797e370ca04f80295b8f1845f3eef3c, clickElement {id=f.14F05AA05EFD5A4ECB845891B543E0A7.d.89FD3BBF49974BDDD7FD7A0AFD1D323A.e.1726}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51825/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6797e370ca04f80295b8f1845f3eef3c)] -> xpath: //span[@title='Tags Management']]
+Session ID: 6797e370ca04f80295b8f1845f3eef3c
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -247,7 +168,7 @@ at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
 at pageObjects.Tag_Page.tagpage(Tag_Page.java:16)
 at testCases.TC16_Tag_Page.tagpage(TC16_Tag_Page.java:11)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -284,45 +205,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- tagpage -->
       </class> <!-- testCases.TC16_Tag_Page -->
       <class name="testCases.TC05_Policies_Page">
-        <test-method signature="PolicyPage()[pri:1, instance:testCases.TC05_Policies_Page@192d74fb]" started-at="2024-08-06T19:51:23 IST" name="PolicyPage" finished-at="2024-08-06T19:51:24 IST" duration-ms="756" status="PASS">
+        <test-method signature="PolicyPage()[pri:1, instance:testCases.TC05_Policies_Page@609640d5]" started-at="2024-08-09T19:29:21 IST" name="PolicyPage" finished-at="2024-08-09T19:29:22 IST" duration-ms="1331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PolicyPage -->
-        <test-method signature="policypage1()[pri:2, instance:testCases.TC05_Policies_Page@192d74fb]" started-at="2024-08-06T19:51:24 IST" name="policypage1" finished-at="2024-08-06T19:51:27 IST" duration-ms="3038" status="PASS">
+        <test-method signature="policypage1()[pri:2, instance:testCases.TC05_Policies_Page@609640d5]" started-at="2024-08-09T19:29:22 IST" name="policypage1" finished-at="2024-08-09T19:29:27 IST" duration-ms="4617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- policypage1 -->
       </class> <!-- testCases.TC05_Policies_Page -->
       <class name="testCases.TC04_Groups_Page">
-        <test-method signature="grouppage()[pri:1, instance:testCases.TC04_Groups_Page@19fb8826]" started-at="2024-08-06T19:51:16 IST" name="grouppage" finished-at="2024-08-06T19:51:23 IST" duration-ms="7162" status="PASS">
+        <test-method signature="grouppage()[pri:1, instance:testCases.TC04_Groups_Page@435871cb]" started-at="2024-08-09T19:29:14 IST" name="grouppage" finished-at="2024-08-09T19:29:21 IST" duration-ms="6544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- grouppage -->
       </class> <!-- testCases.TC04_Groups_Page -->
       <class name="testCases.TC06_Application_Page">
-        <test-method signature="applicationpage()[pri:1, instance:testCases.TC06_Application_Page@4bef0fe3]" started-at="2024-08-06T19:51:27 IST" name="applicationpage" finished-at="2024-08-06T19:51:31 IST" duration-ms="3955" status="PASS">
+        <test-method signature="applicationpage()[pri:1, instance:testCases.TC06_Application_Page@79da1ec0]" started-at="2024-08-09T19:29:27 IST" name="applicationpage" finished-at="2024-08-09T19:29:38 IST" duration-ms="10918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationpage -->
       </class> <!-- testCases.TC06_Application_Page -->
       <class name="testCases.TC08_Imaging_Page">
-        <test-method signature="ImagingPage()[pri:1, instance:testCases.TC08_Imaging_Page@27953a83]" started-at="2024-08-06T19:51:31 IST" name="ImagingPage" finished-at="2024-08-06T19:51:34 IST" duration-ms="2096" status="PASS">
+        <test-method signature="ImagingPage()[pri:1, instance:testCases.TC08_Imaging_Page@192d74fb]" started-at="2024-08-09T19:29:39 IST" name="ImagingPage" finished-at="2024-08-09T19:29:42 IST" duration-ms="3032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ImagingPage -->
       </class> <!-- testCases.TC08_Imaging_Page -->
       <class name="testCases.TC19_Users_Management_Page">
-        <test-method signature="UserManagement_Page()[pri:1, instance:testCases.TC19_Users_Management_Page@3b220bcb]" started-at="2024-08-06T19:51:41 IST" name="UserManagement_Page" finished-at="2024-08-06T19:51:41 IST" duration-ms="634" status="PASS">
+        <test-method signature="UserManagement_Page()[pri:1, instance:testCases.TC19_Users_Management_Page@749c877b]" started-at="2024-08-09T19:30:02 IST" name="UserManagement_Page" finished-at="2024-08-09T19:30:03 IST" duration-ms="1231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserManagement_Page -->
-        <test-method signature="AddSAUser()[pri:2, instance:testCases.TC19_Users_Management_Page@3b220bcb]" started-at="2024-08-06T19:51:41 IST" name="AddSAUser" finished-at="2024-08-06T19:51:42 IST" duration-ms="529" status="PASS">
+        <test-method signature="AddSAUser()[pri:2, instance:testCases.TC19_Users_Management_Page@749c877b]" started-at="2024-08-09T19:30:03 IST" name="AddSAUser" finished-at="2024-08-09T19:30:04 IST" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddSAUser -->
       </class> <!-- testCases.TC19_Users_Management_Page -->
       <class name="testCases.TC01_Sign_in_Page">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_Sign_in_Page@6b9ce1bf]" started-at="2024-08-06T19:50:50 IST" name="setup" finished-at="2024-08-06T19:50:52 IST" duration-ms="2343" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_Sign_in_Page@6f2cb653]" started-at="2024-08-09T19:28:41 IST" name="setup" finished-at="2024-08-09T19:28:49 IST" duration-ms="8265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -338,11 +259,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testsignin()[pri:1, instance:testCases.TC01_Sign_in_Page@6b9ce1bf]" started-at="2024-08-06T19:50:52 IST" name="testsignin" finished-at="2024-08-06T19:51:01 IST" duration-ms="9234" status="PASS">
+        <test-method signature="testsignin()[pri:1, instance:testCases.TC01_Sign_in_Page@6f2cb653]" started-at="2024-08-09T19:28:49 IST" name="testsignin" finished-at="2024-08-09T19:28:59 IST" duration-ms="9639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsignin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_Sign_in_Page@6b9ce1bf]" started-at="2024-08-06T19:51:43 IST" name="tearDown" finished-at="2024-08-06T19:51:43 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_Sign_in_Page@6f2cb653]" started-at="2024-08-09T19:30:04 IST" name="tearDown" finished-at="2024-08-09T19:30:04 IST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

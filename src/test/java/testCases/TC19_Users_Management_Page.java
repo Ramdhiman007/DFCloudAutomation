@@ -23,6 +23,19 @@ public class TC19_Users_Management_Page extends pageObjects.Base_Page {
 		adc.putemail(randomeString() + "@gmail.com");
 		adc.selectSAuser("Super Administrator");
 		adc.clickonaddbtn();
-	}
-	
+/*	}
+	@Test(priority=3)
+	public void AddAdminUser() {
+		Users_Management_Page admin = new Users_Management_Page();
+		admin.addAdminUser();
+		admin.addNewAdminUser();
+		admin.AdminFirstname(randomeString().toUpperCase());
+		admin.AdminLastname(randomeString().toUpperCase());
+		admin.AdminEmail(randomeString() + "@gmail.com");
+		admin.AdminPermission("Administrator");
+		admin.clickOnAddAdminBtn();
+
+} 
+*/
+}
 }

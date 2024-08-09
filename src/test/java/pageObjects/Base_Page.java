@@ -20,22 +20,24 @@ public class Base_Page {
     public static WebDriver driver; // WebDriver instance
     public Logger logger; // Logger instance
     public WebDriverWait wait; // WebDriverWait instance
+
     @BeforeTest
     @Parameters({"os", "browser"})
     public void setup(@Optional("Windows") String os, @Optional("chrome") String br) {
-        logger = LogManager.getLogger(this.getClass()); // Logger initialize karna
-        
+        logger = LogManager.getLogger(this.getClass()); // Logger initialization
+
+        // Setup WebDriver based on browser parameter
         switch (br.toLowerCase()) {
             case "edge":
-                WebDriverManager.edgedriver().setup(); // EdgeDriver setup karna
+                WebDriverManager.edgedriver().setup(); // EdgeDriver setup
                 driver = new EdgeDriver();
                 break;
             case "chrome":
-                WebDriverManager.chromedriver().setup(); // ChromeDriver setup karna
+                WebDriverManager.chromedriver().setup(); // ChromeDriver setup
                 driver = new ChromeDriver();
                 break;
             case "firefox":
-                WebDriverManager.firefoxdriver().setup(); // FirefoxDriver setup karna
+                WebDriverManager.firefoxdriver().setup(); // FirefoxDriver setup
                 driver = new FirefoxDriver();
                 break;
             default:
@@ -44,45 +46,45 @@ public class Base_Page {
         }
 
         if (driver != null) {
-        	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); // Implicit wait set karna
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); // Implicit wait
             wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // Initialize WebDriverWait
-            driver.get("https://www1.faronicsbeta.com/en/Account/Login"); // URL open karna
-            driver.manage().window().maximize(); // Window ko maximize karna
+            driver.get("https://www1.faronicsbeta.com/en/Account/Login"); // Open URL
+            driver.manage().window().maximize(); // Maximize window
         }
     }
-    
+
     @AfterTest
     public void tearDown() {
-        // WebDriver ko quit karna
+        // Quit WebDriver
         if (driver != null) {
             driver.quit();
-            driver = null; // Driver ko null set karna
+            driver = null; // Set driver to null
         }
-    }
-    
+    } 
+
     public static WebDriver getDriver() {
         return driver;
     }
-    
-    // Randomly generated string return karna (alphabetic) This is for Signup Page
+
+    // Randomly generated string (alphabetic)
     public String randomeString() {
-        return RandomStringUtils.randomAlphabetic(10); // Random alphabetic string generate karna
-    }
-    
-    // Randomly generated number return karna
-    public String randomNumber() {
-        return RandomStringUtils.randomNumeric(10); // Random numeric string generate karna
-    }
-    
-    // Randomly generated alphanumeric string with special character
-    public String randomeAlphaNumberic() {
-        String generatedstring = RandomStringUtils.randomAlphabetic(5); // Random alphabetic string generate karna
-        String generatednumber = RandomStringUtils.randomNumeric(5); // Random numeric string generate karna
-        return generatedstring + "@" + generatednumber; // Combine karke return karna
+        return RandomStringUtils.randomAlphabetic(10); // Generate random alphabetic string
     }
 
-    // Page elements ko initialize karna
+    // Randomly generated number
+    public String randomNumber() {
+        return RandomStringUtils.randomNumeric(10); // Generate random numeric string
+    }
+
+    // Randomly generated alphanumeric string with special character
+    public String randomeAlphaNumberic() {
+        String generatedstring = RandomStringUtils.randomAlphabetic(5); // Generate random alphabetic string
+        String generatednumber = RandomStringUtils.randomNumeric(5); // Generate random numeric string
+        return generatedstring + "@" + generatednumber; // Combine and return
+    }
+
+    // Initialize page elements
     public void initializeElements(Object page) {
-        PageFactory.initElements(driver, page); // PageFactory ka use karke page elements initialize karna
+        PageFactory.initElements(driver, page); // Initialize page elements using PageFactory
     }
 }

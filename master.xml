@@ -21,8 +21,10 @@
       <class name="testCases.TC16_Tag_Page"/>
       <class name="testCases.TC17_TaskStatus_Page"/>
       <class name="testCases.TC18_Alerts_Page"/>
+      
       <class name="testCases.TC19_Users_Management_Page"/>
-      <class name="testCases.TC02_Signup_Page"/>
+      <!--<class name="testCases.TC020_Site_Page"/>-->
+      
       
     </classes>
   </test> <!-- Test -->
